@@ -1,297 +1,647 @@
-<!DOCTYPE html>
-<!--  This site was created in Webflow. http://www.webflow.com  -->
-<!--  Last Published: Tue Mar 03 2020 22:20:37 GMT+0000 (Coordinated Universal Time)  -->
-<html data-wf-page="5e209ae8ed25e4c7e696f507" data-wf-site="5e209ae7ed25e4622d96f504">
-<head>
-  <meta charset="utf-8">
-  <title>Chitraleka Dance Academy</title>
-  <meta content="Chitraleka Dance Academy is a leading institution of Indian Classical Dance, providing Bharatanatyam training in the city of Birmingham." name="description">
-  <meta content="Chitraleka Dance Academy" property="og:title">
-  <meta content="Chitraleka Dance Academy is a leading institution of Indian Classical Dance, providing Bharatanatyam training in the city of Birmingham." property="og:description">
-  <meta content="summary" name="twitter:card">
-  <meta content="width=device-width, initial-scale=1" name="viewport">
-  <meta content="Webflow" name="generator">
-  <link href="css/normalize.css" rel="stylesheet" type="text/css">
-  <link href="css/webflow.css" rel="stylesheet" type="text/css">
-  <link href="css/chitraleka-dance-academy.webflow.css" rel="stylesheet" type="text/css">
-  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" type="text/javascript"></script>
-  <script type="text/javascript">WebFont.load({  google: {    families: ["Montserrat:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic","Poppins:200,regular,600,800"]  }});</script>
-  <!-- [if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" type="text/javascript"></script><![endif] -->
-  <script type="text/javascript">!function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);</script>
-  <link href="images/favicon.jpg" rel="shortcut icon" type="image/x-icon">
-  <link href="images/webclip.jpg" rel="apple-touch-icon">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-  <link rel="stylesheet" href="https://use.typekit.net/lyf0rxc.css">
-</head>
-<body class="body">
-  <div data-poster-url="https://uploads-ssl.webflow.com/5e209ae7ed25e4622d96f504/5e209d36ef29bc0ad7fb419f_CDC Website Banner 24p Compress-poster-00001.jpg" data-video-urls="https://uploads-ssl.webflow.com/5e209ae7ed25e4622d96f504/5e209d36ef29bc0ad7fb419f_CDC Website Banner 24p Compress-transcode.mp4,https://uploads-ssl.webflow.com/5e209ae7ed25e4622d96f504/5e209d36ef29bc0ad7fb419f_CDC Website Banner 24p Compress-transcode.webm" data-autoplay="true" data-loop="true" data-wf-ignore="true" data-w-id="c9b6895e-de46-26e1-a871-3c64086bd80f" class="background-video w-background-video w-background-video-atom"><video autoplay="" loop="" style="background-image:url(&quot;https://uploads-ssl.webflow.com/5e209ae7ed25e4622d96f504/5e209d36ef29bc0ad7fb419f_CDC Website Banner 24p Compress-poster-00001.jpg&quot;)" muted="" playsinline="" data-wf-ignore="true" data-object-fit="cover"><source src="https://uploads-ssl.webflow.com/5e209ae7ed25e4622d96f504/5e209d36ef29bc0ad7fb419f_CDC Website Banner 24p Compress-transcode.mp4" data-wf-ignore="true"><source src="https://uploads-ssl.webflow.com/5e209ae7ed25e4622d96f504/5e209d36ef29bc0ad7fb419f_CDC Website Banner 24p Compress-transcode.webm" data-wf-ignore="true"></video>
-    <div data-collapse="all" data-animation="default" data-duration="400" class="navigation w-nav">
-      <div class="navigation-wrap">
-        <a href="index.html" class="logo-link w-nav-brand w--current">
-          <div class="div-block-124"><img src="images/chitraleka-dance-academy-logo-white.svg" alt="" class="logo-image-white"><img src="images/chitraleka-dance-academy-logo-black.svg" alt="" class="logo-image-black"><img src="images/chitraleka-dance-academy-emblem-white.svg" alt="" class="emblem-white"><img src="images/chitraleka-dance-academy-emblem-black.svg" alt="" class="emblem-black"><img src="images/chitraleka-dance-academy-logo-white.svg" alt="" class="menu-logo-white"><img src="images/chitraleka-dance-academy-emblem-white.svg" alt="" class="menu-emblem-white"></div>
-        </a>
-      </div>
-      <div class="navbar-items w-clearfix">
-        <div class="div-block-58"><a href="#" data-w-id="6a4744c0-0a4b-5a41-ed34-f326e6affc33" class="mini-nav-for-main w-nav-link">Classes</a><a href="#" data-w-id="6a4744c0-0a4b-5a41-ed34-f326e6affc35" class="mini-nav-for-main w-nav-link">Qualifications</a><a href="#" data-w-id="6a4744c0-0a4b-5a41-ed34-f326e6affc37" class="mini-nav-for-main w-nav-link">Arangetram</a><a href="#" class="mini-nav-for-main w-nav-link">Timetable</a></div>
-        <nav role="navigation" class="navigation-items-2 w-nav-menu"><a href="#" class="navigation-item-2 w-nav-link">About</a><a href="#" class="navigation-item-2 w-nav-link">Work</a><a href="#" class="navigation-item-2 w-nav-link">team</a><a href="#" class="navigation-item-2 w-nav-link">Blog</a><a href="#" class="navigation-item-2 w-nav-link">Contact</a></nav>
-        <div class="join-block">
-          <a href="contact.html" class="button nav w-inline-block w-clearfix">
-            <div class="explore">Join</div><img src="images/button-purple-arrow.svg" alt="" class="button-arrow-sleek"></a>
+---
+layout: default
+---
+
+<div
+  data-poster-url="https://uploads-ssl.webflow.com/5e209ae7ed25e4622d96f504/5e209d36ef29bc0ad7fb419f_CDC Website Banner 24p Compress-poster-00001.jpg"
+  data-video-urls="https://uploads-ssl.webflow.com/5e209ae7ed25e4622d96f504/5e209d36ef29bc0ad7fb419f_CDC Website Banner 24p Compress-transcode.mp4,https://uploads-ssl.webflow.com/5e209ae7ed25e4622d96f504/5e209d36ef29bc0ad7fb419f_CDC Website Banner 24p Compress-transcode.webm"
+  data-autoplay="true"
+  data-loop="true"
+  data-wf-ignore="true"
+  data-w-id="c9b6895e-de46-26e1-a871-3c64086bd80f"
+  class="background-video w-background-video w-background-video-atom"
+>
+  <video
+    autoplay=""
+    loop=""
+    style='background-image:url("https://uploads-ssl.webflow.com/5e209ae7ed25e4622d96f504/5e209d36ef29bc0ad7fb419f_CDC Website Banner 24p Compress-poster-00001.jpg")'
+    muted=""
+    playsinline=""
+    data-wf-ignore="true"
+    data-object-fit="cover"
+  >
+    <source
+      src="https://uploads-ssl.webflow.com/5e209ae7ed25e4622d96f504/5e209d36ef29bc0ad7fb419f_CDC Website Banner 24p Compress-transcode.mp4"
+      data-wf-ignore="true"
+    />
+    <source
+      src="https://uploads-ssl.webflow.com/5e209ae7ed25e4622d96f504/5e209d36ef29bc0ad7fb419f_CDC Website Banner 24p Compress-transcode.webm"
+      data-wf-ignore="true"
+    />
+  </video>
+  <div
+    data-collapse="all"
+    data-animation="default"
+    data-duration="400"
+    class="navigation w-nav"
+  >
+    <div class="navigation-wrap">
+      <a href="index.html" class="logo-link w-nav-brand w--current">
+        <div class="div-block-124">
+          <img
+            src="images/chitraleka-dance-academy-logo-white.svg"
+            alt=""
+            class="logo-image-white"
+          /><img
+            src="images/chitraleka-dance-academy-logo-black.svg"
+            alt=""
+            class="logo-image-black"
+          /><img
+            src="images/chitraleka-dance-academy-emblem-white.svg"
+            alt=""
+            class="emblem-white"
+          /><img
+            src="images/chitraleka-dance-academy-emblem-black.svg"
+            alt=""
+            class="emblem-black"
+          /><img
+            src="images/chitraleka-dance-academy-emblem-white.svg"
+            alt=""
+            class="menu-emblem-white"
+          />
         </div>
-        <div data-w-id="07875de1-cf9f-f340-aa2a-a28decda4f1e" class="hamburgermenu">
-          <div class="topline"></div>
-          <div class="middleline"></div>
-          <div class="bottomline"></div>
-          <div class="crossone"></div>
-          <div class="crosstwo"></div>
-        </div>
-        <div class="menu-button w-nav-button"></div>
-      </div>
-      <div class="menu-actual">
-        <div class="menu-links"><a data-w-id="7294711d-93be-d5a1-368a-a00f1173d4a4" href="javascript:delay(&#x27;/&#x27;)" class="heading-3 white-text menu-link">Home</a><a data-w-id="7a310293-99f4-33c2-7db5-64aa30f8afff" href="javascript:delay(&#x27;learning&#x27;)" class="heading-3 white-text menu-link">Learn</a><a data-w-id="ca947199-1854-453c-6999-b784e0e2a670" href="javascript:delay(&#x27;projects&#x27;)" class="heading-3 white-text menu-link">Projects</a><a data-w-id="d4417bff-0bb3-a3b2-3bd8-47b869d71e54" href="javascript:delay(&#x27;performance&#x27;)" class="heading-3 white-text menu-link">Perform</a><a data-w-id="b134c992-2cbe-ea88-66a9-63908fbec787" href="javascript:delay(&#x27;contact&#x27;)" class="heading-3 white-text menu-link">Contact</a><a data-w-id="224f79de-3353-c4d9-2b32-35ce3af71f1c" href="javascript:delay(&#x27;about-us&#x27;)" class="heading-3 white-text menu-link">About</a></div>
-        <div class="divider"></div>
-        <div class="menu-image"><img src="images/Menu_Image.jpg" alt=""></div>
-        <div class="div-block-100">
-          <div class="paragraph-small white"><a href="learning-timetable.html" class="link-4">View the latest Timetable</a></div>
-          <div class="paragraph-small white">Need some quick information? <br>Download our <br><a href="documents/Student-info-pack-2020_FINAL.pdf" class="link-2">Student Information Pack</a></div>
-        </div>
-      </div>
-      <div class="dark-overlay"></div>
-    </div>
-    <div class="container-1200 hero landing">
-      <div class="hero-no-nav">
-        <div data-w-id="86e64837-0616-515b-4568-76c147234d2e" style="opacity:0" class="hero-heading">An industry leading <br>Bharatanatyam Dance Academy<br></div>
-        <div data-w-id="6871cbeb-0a17-a051-c12a-606d2ea71aec" style="opacity:0" class="div-block-32">
-          <div class="styleguide-button-wrap">
-            <a href="contact.html" class="button cta w-inline-block w-clearfix">
-              <div class="explore">Enquire</div><img src="images/button-purple-arrow.svg" alt="" class="button-arrow-sleek"></a>
-          </div>
-        </div>
-      </div>
-      <a href="#first-section" class="explore-link w-inline-block">
-        <div class="paragraph-bigger white">Explore<br></div>
-        <div data-w-id="adacaf9c-9299-bb3b-b383-53e0e8325e1a" style="-webkit-transform:translate3d(0, 0PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="explore-arrow"></div>
-        <div class="div-block-118"><img src="images/long-arrow-down-custom.svg" data-w-id="21b2221f-32cf-63ad-7a82-68615510ad75" style="-webkit-transform:translate3d(0, 0PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" alt=""></div>
       </a>
     </div>
+    <div class="navbar-items w-clearfix">
+      <nav role="navigation" class="navigation-items-2 w-nav-menu">
+        <a href="#" class="navigation-item-2 w-nav-link">About</a
+        ><a href="#" class="navigation-item-2 w-nav-link">Work</a
+        ><a href="#" class="navigation-item-2 w-nav-link">team</a
+        ><a href="#" class="navigation-item-2 w-nav-link">Blog</a
+        ><a href="#" class="navigation-item-2 w-nav-link">Contact</a>
+      </nav>
+      <div class="join-block">
+        <a href="contact.html" class="button nav w-inline-block w-clearfix">
+          <div class="explore">Join</div>
+          <img
+            src="images/button-purple-arrow.svg"
+            alt=""
+            class="button-arrow-sleek"
+        /></a>
+      </div>
+      <div
+        data-w-id="07875de1-cf9f-f340-aa2a-a28decda4f1e"
+        class="hamburgermenu"
+      >
+        <div class="topline"></div>
+        <div class="middleline"></div>
+        <div class="bottomline"></div>
+        <div class="crossone"></div>
+        <div class="crosstwo"></div>
+      </div>
+      <div class="menu-button w-nav-button"></div>
+    </div>
+    <div class="menu-actual">
+      <div class="menu-links">
+        <a
+          href="javascript:delay(&#x27;/&#x27;)"
+          class="heading-3 white-text menu-link"
+          >Home</a
+        ><a
+          href="javascript:delay(&#x27;{{site.baseurl}}/learning.html&#x27;)"
+          class="heading-3 white-text menu-link"
+          >Learn</a
+        ><a
+          href="javascript:delay(&#x27;{{site.baseurl}}projects&#x27;)"
+          class="heading-3 white-text menu-link"
+          >Projects</a
+        ><a
+          href="javascript:delay(&#x27;{{site.baseurl}}performance&#x27;)"
+          class="heading-3 white-text menu-link"
+          >Perform</a
+        ><a
+          href="javascript:delay(&#x27;{{site.baseurl}}contact&#x27;)"
+          class="heading-3 white-text menu-link"
+          >Contact</a
+        ><a
+          href="javascript:delay(&#x27;{{site.baseurl}}about-us&#x27;)"
+          class="heading-3 white-text menu-link"
+          >About</a
+        >
+      </div>
+      <div class="divider"></div>
+      <div class="menu-image"><img src="images/Menu_Image.jpg" alt="" /></div>
+      <div class="div-block-100">
+        <div class="paragraph-small white">
+          <a href="learning-timetable.html" class="link-4"
+            >View the latest Timetable</a
+          >
+        </div>
+        <div class="paragraph-small white">
+          Need some quick information? <br />Download our <br /><a
+            href="documents/Student-info-pack-2020_FINAL.pdf"
+            class="link-2"
+            >Student Information Pack</a
+          >
+        </div>
+      </div>
+    </div>
+    <div class="dark-overlay"></div>
   </div>
-  <div id="first-section" class="section cc-store-home-wrap">
+  <div class="container-1200 hero landing">
+    <div class="hero-no-nav">
+      <div
+        data-w-id="86e64837-0616-515b-4568-76c147234d2e"
+        style="opacity:0"
+        class="hero-heading"
+      >
+        An industry leading <br />Bharatanatyam Dance Academy<br />
+      </div>
+      <div
+        data-w-id="6871cbeb-0a17-a051-c12a-606d2ea71aec"
+        style="opacity:0"
+        class="div-block-32"
+      >
+        <div class="styleguide-button-wrap">
+          <a href="contact.html" class="button cta w-inline-block w-clearfix">
+            <div class="explore">Enquire</div>
+            <img
+              src="images/button-purple-arrow.svg"
+              alt=""
+              class="button-arrow-sleek"
+          /></a>
+        </div>
+      </div>
+    </div>
+    <a href="#first-section" class="explore-link w-inline-block">
+      <div class="paragraph-bigger white">Explore<br /></div>
+      <div
+        data-w-id="adacaf9c-9299-bb3b-b383-53e0e8325e1a"
+        style="-webkit-transform:translate3d(0, 0PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)"
+        class="explore-arrow"
+      >
+        
+      </div>
+      <div class="div-block-118">
+        <img
+          src="images/long-arrow-down-custom.svg"
+          data-w-id="21b2221f-32cf-63ad-7a82-68615510ad75"
+          style="-webkit-transform:translate3d(0, 0PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)"
+          alt=""
+        />
+      </div>
+    </a>
+  </div>
+</div>
+<div id="first-section" class="section cc-store-home-wrap">
+  <div class="container-1200">
+    <div class="home-content-wrap">
+      <div
+        data-w-id="a64191e4-ed2a-dbf8-2eeb-1fbc13c7bfbe"
+        style="opacity:0"
+        class="heading-3 intro"
+      >
+        Chitraleka Dance Academy is an Birmingham based institution of
+        Bharatanatyam, a form of Indian classical dance, offering authentic
+        training in a family-friendly environment.
+      </div>
+      <div class="divider"></div>
+      <div class="w-layout-grid about-grid">
+        <div id="w-node-c20716138197-280b1f76" class="tall-block">
+          <a
+            data-w-id="99a645e0-cee7-324e-da40-a1c1a2a79e42"
+            style="opacity:0"
+            href="about-us.html"
+            class="tall-imageblock w-inline-block"
+          >
+            <div class="heading white-text absolute">our story</div>
+            <img
+              src="images/bharatanatyam-feet-with-bells.jpg"
+              alt="bharatanatyam feet with bells and alta"
+              class="image-2"
+          /></a>
+
+          <div
+            data-w-id="8c3fea6e-7065-875c-bdfb-2fcbf2bb9403"
+            style="opacity:0"
+            class="paragraph image-caption"
+          >
+            Dedicated to preserving and promoting the heritage of Indian
+            Classical Dance
+          </div>
+        </div>
+        <div id="w-node-5c64fa0815c3-280b1f76" class="tall-block">
+          <a
+            data-w-id="ba279bd1-1d5c-8eac-68d1-af42c0c192bd"
+            style="opacity:0"
+            href="learning.html"
+            class="tall-imageblock w-inline-block"
+          >
+            <div class="heading white-text absolute">our classes</div>
+            <img
+              src="images/young-bharatanatyam-dancer-girl.jpg"
+              alt="young girl bharatanatyam dancer katkamukha"
+              class="image-2"
+          /></a>
+
+          <div
+            data-w-id="19a99ccb-e208-3345-9447-6b13a4909413"
+            style="opacity:0"
+            class="paragraph image-caption"
+          >
+            We offer a range of classes in Birmingham for a variety of age and
+            skill levels
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="full-page-div-overflow">
+    <div data-w-id="a708461a-2f8d-1c99-d9ee-d3510e6c53e5" class="full-page-div">
+      <div class="container-1200 container-100h">
+        <div class="container-padded-child _90vh flex-center-vert">
+          <div class="div-block-28">
+            <h1
+              data-w-id="7e0c6e4c-8557-571d-e0a8-4a636eaf56f9"
+              style="opacity:0"
+              class="heading-jumbo white-text"
+            >
+              Performance<br />Opportunities
+            </h1>
+            <div
+              data-w-id="3bacfb55-1c22-1206-6f88-624121852131"
+              style="opacity:0"
+              class="div-block-34"
+            >
+              <a
+                href="performance.html"
+                class="button white w-inline-block w-clearfix"
+              >
+                <div class="explore invert">Perform with us</div>
+                <img
+                  src="images/button-transparent-arrow_1.svg"
+                  alt=""
+                  class="button-arrow-sleek"
+              /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    data-w-id="adc12f88-b82c-2788-09f2-4b1ecbf706d3"
+    class="cms-section-last"
+  >
+    <div class="home-grid-left-heavy">
+      <div id="w-node-11bca47314f2-280b1f76" class="home-grid-left-block">
+        <div>
+          <div
+            data-w-id="43febc18-7d7c-7263-cbf7-44a95c7ecec1"
+            style="opacity:0"
+            class="heading-jumbo"
+          >
+            Developing Bharatanatyam talent in the UK for over
+            <span class="text-span-2"><strong>30 years</strong></span>
+          </div>
+        </div>
+        <div class="home-grid-text">
+          <div
+            data-w-id="db531486-39a9-8e5c-af3b-801fd5bcd66f"
+            style="opacity:0"
+            class="paragraph paragraph-right-margin"
+          >
+            Chitraleka Dance Company’s performance work started in 1990 with
+            Chitraleka’s quest for exploring the power and precision of
+            Bharatanatyam, interpretations of its vocabulary and percussive
+            rhythms.
+          </div>
+        </div>
+      </div>
+      <img
+        src="images/chitraleka-bolar-with-arangetram-graduate_1.jpg"
+        alt="arangetram graduate and teacher chitraleka bolar"
+        srcset="
+          images/chitraleka-bolar-with-arangetram-graduate_1-p-500.jpeg   500w,
+          images/chitraleka-bolar-with-arangetram-graduate_1-p-800.jpeg   800w,
+          images/chitraleka-bolar-with-arangetram-graduate_1-p-1080.jpeg 1080w,
+          images/chitraleka-bolar-with-arangetram-graduate_1.jpg         1440w
+        "
+        sizes="(max-width: 479px) 88vw, 50vw"
+        id="w-node-f69dec245e54-280b1f76"
+        class="image-8"
+      />
+    </div>
+  </div>
+  <div class="full-page-div-overflow">
+    <div
+      data-w-id="b97aa684-79b5-30c6-c02d-82d6672a7c9e"
+      class="full-page-div fp-home-2"
+    >
+      <div class="container-1200 container-100h">
+        <div class="container-padded-child _90vh flex-center-vert"></div>
+      </div>
+    </div>
+  </div>
+  <div class="latest-projects">
     <div class="container-1200">
-      <div class="home-content-wrap">
-        <div data-w-id="a64191e4-ed2a-dbf8-2eeb-1fbc13c7bfbe" style="opacity:0" class="heading-3 intro">Chitraleka Dance Academy is an Birmingham based institution of Bharatanatyam, a form of Indian classical dance, offering authentic training in a family-friendly environment. </div>
-        <div class="divider"></div>
-        <div class="w-layout-grid about-grid">
-          <div id="w-node-c20716138197-e696f507" class="tall-block">
-            <a data-w-id="99a645e0-cee7-324e-da40-a1c1a2a79e42" style="opacity:0" href="about-us.html" class="tall-imageblock w-inline-block">
-              <div class="heading white-text absolute">our story</div><img src="images/bharatanatyam-feet-with-bells.jpg" alt="bharatanatyam feet with bells and alta" class="image-2"></a>
-            <div data-w-id="8c3fea6e-7065-875c-bdfb-2fcbf2bb9403" style="opacity:0" class="paragraph image-caption">Dedicated to preserving and promoting the heritage of Indian Classical Dance</div>
+      <div class="div-block-36">
+        <div>
+          <div
+            data-w-id="c502d3d3-8a29-ae11-896c-53d428557cf1"
+            style="opacity:0"
+            class="heading-jumbo center"
+          >
+            Latest Projects
           </div>
-          <div id="w-node-5c64fa0815c3-e696f507" class="tall-block">
-            <a data-w-id="ba279bd1-1d5c-8eac-68d1-af42c0c192bd" style="opacity:0" href="learning.html" class="tall-imageblock w-inline-block">
-              <div class="heading white-text absolute">our classes</div><img src="images/young-bharatanatyam-dancer-girl.jpg" alt="young girl bharatanatyam dancer katkamukha" class="image-2"></a>
-            <div data-w-id="19a99ccb-e208-3345-9447-6b13a4909413" style="opacity:0" class="paragraph image-caption">We offer a range of classes in Birmingham for a variety of age and skill levels</div>
+          <div
+            data-w-id="8693434e-b674-017f-7082-57db5c773672"
+            style="opacity:0"
+            class="heading-3 center margin-top"
+          >
+            Select a project below ↓
           </div>
         </div>
-      </div>
-    </div>
-    <div class="full-page-div-overflow">
-      <div data-w-id="a708461a-2f8d-1c99-d9ee-d3510e6c53e5" class="full-page-div">
-        <div class="container-1200 container-100h">
-          <div class="container-padded-child _90vh flex-center-vert">
-            <div class="div-block-28">
-              <h1 data-w-id="7e0c6e4c-8557-571d-e0a8-4a636eaf56f9" style="opacity:0" class="heading-jumbo white-text">Performance<br>Opportunities</h1>
-              <div data-w-id="3bacfb55-1c22-1206-6f88-624121852131" style="opacity:0" class="div-block-34">
-                <a href="performance.html" class="button white w-inline-block w-clearfix">
-                  <div class="explore invert">Perform with us</div><img src="images/button-transparent-arrow_1.svg" alt="" class="button-arrow-sleek"></a>
+        <div class="div-block-126">
+          <div class="div-block-13">
+            <a href="#" class="project-image w-inline-block">
+              <div class="div-block-53">
+                <img
+                  src="images/bharatanatyam-girl-smiling_1.jpg"
+                  srcset="
+                    images/bharatanatyam-girl-smiling_1-p-1080.jpeg 1080w,
+                    images/bharatanatyam-girl-smiling_1.jpg         1440w
+                  "
+                  sizes="(max-width: 767px) 88vw, (max-width: 991px) 82vw, 90vw"
+                  alt=""
+                  class="image-11"
+                />
               </div>
+            </a>
+            <div class="project-text-caption">
+              <a href="#" class="link-block w-inline-block">
+                <div class="heading-3">Samaagama 2019</div>
+              </a>
+              <div class="paragraph">Annual Show</div>
             </div>
           </div>
-        </div>
-      </div>
-    </div>
-    <div data-w-id="adc12f88-b82c-2788-09f2-4b1ecbf706d3" class="cms-section-last">
-      <div class="home-grid-left-heavy">
-        <div id="w-node-11bca47314f2-e696f507" class="home-grid-left-block">
-          <div>
-            <div data-w-id="43febc18-7d7c-7263-cbf7-44a95c7ecec1" style="opacity:0" class="heading-jumbo">Developing Bharatanatyam talent in the UK for over <span class="text-span-2"><strong>30 years</strong></span></div>
-          </div>
-          <div class="home-grid-text">
-            <div data-w-id="db531486-39a9-8e5c-af3b-801fd5bcd66f" style="opacity:0" class="paragraph paragraph-right-margin">Chitraleka Dance Company’s performance work started in 1990 with Chitraleka’s quest for exploring the power and precision of Bharatanatyam, interpretations of its vocabulary and percussive rhythms.</div>
-          </div>
-        </div><img src="images/chitraleka-bolar-with-arangetram-graduate_1.jpg" alt="arangetram graduate and teacher chitraleka bolar" srcset="images/chitraleka-bolar-with-arangetram-graduate_1-p-500.jpeg 500w, images/chitraleka-bolar-with-arangetram-graduate_1-p-800.jpeg 800w, images/chitraleka-bolar-with-arangetram-graduate_1-p-1080.jpeg 1080w, images/chitraleka-bolar-with-arangetram-graduate_1.jpg 1440w" sizes="(max-width: 479px) 88vw, 50vw" id="w-node-f69dec245e54-e696f507" class="image-8"></div>
-    </div>
-    <div class="full-page-div-overflow">
-      <div data-w-id="b97aa684-79b5-30c6-c02d-82d6672a7c9e" class="full-page-div fp-home-2">
-        <div class="container-1200 container-100h">
-          <div class="container-padded-child _90vh flex-center-vert"></div>
-        </div>
-      </div>
-    </div>
-    <div class="latest-projects">
-      <div class="container-1200">
-        <div class="div-block-36">
-          <div>
-            <div data-w-id="c502d3d3-8a29-ae11-896c-53d428557cf1" style="opacity:0" class="heading-jumbo center">Latest Projects</div>
-            <div data-w-id="8693434e-b674-017f-7082-57db5c773672" style="opacity:0" class="heading-3 center margin-top">Select a project below ↓</div>
-          </div>
-          <div data-w-id="e8f4c03b-0572-3c01-8e7b-1f2b1a124963" style="opacity:0" class="landing-projects-wrapper w-dyn-list">
-            <div class="collection-list w-dyn-items">
-              <div class="collection-item-2 w-dyn-item">
-                <div class="div-block-13">
-                  <a href="#" class="project-image w-inline-block">
-                    <div class="div-block-53"><img src="" alt="" class="image-11"></div>
-                  </a>
-                  <div class="project-text-caption">
-                    <a href="#" class="link-block w-inline-block">
-                      <div class="heading-3"></div>
-                    </a>
-                    <div class="paragraph"></div>
+          <div class="projects-grid-left-heavy-home">
+            <div class="landing-project-2-div">
+              <a href="#" class="project-image w-inline-block">
+                <div class="div-block-52">
+                  <img
+                    src="https://d3e54v103j8qbb.cloudfront.net/plugins/Basic/assets/placeholder.60f9b1840c.svg"
+                    alt=""
+                    class="image-10"
+                  />
+                </div>
+              </a>
+              <div class="project-text-caption">
+                <a href="#" class="link-block w-inline-block">
+                  <div class="heading-3">
+                    This is some text inside of a div block.
                   </div>
+                </a>
+                <div class="paragraph">
+                  This is some text inside of a div block.
                 </div>
               </div>
             </div>
-            <div class="w-dyn-empty">
-              <div>No items found.</div>
-            </div>
-          </div>
-          <div class="projects-grid-left-heavy">
-            <div data-w-id="5c7c938c-5e53-8061-afb1-7d50807b8116" style="opacity:0" class="landing-projects-wrapper-2 w-dyn-list">
-              <div class="collection-list w-dyn-items">
-                <div class="collection-item-2 w-dyn-item">
-                  <div class="landing-project-2-div">
-                    <a href="#" class="project-image w-inline-block">
-                      <div class="div-block-52"><img src="" alt="" class="image-10"></div>
-                    </a>
-                    <div class="project-text-caption">
-                      <a href="#" class="link-block w-inline-block">
-                        <div class="heading-3"></div>
-                      </a>
-                      <div class="paragraph"></div>
-                    </div>
-                  </div>
+            <div class="landing-project-2-div">
+              <a href="#" class="project-image w-inline-block">
+                <div class="div-block-52">
+                  <img
+                    src="https://d3e54v103j8qbb.cloudfront.net/plugins/Basic/assets/placeholder.60f9b1840c.svg"
+                    alt=""
+                    class="image-10"
+                  />
                 </div>
-              </div>
-              <div class="w-dyn-empty">
-                <div>No items found.</div>
-              </div>
-            </div>
-            <div data-w-id="605d7fca-cb76-9fff-7694-c24550ef82ef" style="opacity:0" class="landing-projects-wrapper-3 w-dyn-list">
-              <div class="collection-list w-dyn-items">
-                <div class="collection-item-2 w-dyn-item">
-                  <div class="div-block-13"><a href="#" class="project-image w-inline-block"><img src="" alt=""></a>
-                    <div class="project-text-caption">
-                      <a href="#" class="link-block w-inline-block">
-                        <div class="heading-3"></div>
-                      </a>
-                      <div class="paragraph"></div>
-                    </div>
+              </a>
+              <div class="project-text-caption">
+                <a href="#" class="link-block w-inline-block">
+                  <div class="heading-3">
+                    This is some text inside of a div block.
                   </div>
+                </a>
+                <div class="paragraph">
+                  This is some text inside of a div block.
                 </div>
-              </div>
-              <div class="w-dyn-empty">
-                <div>No items found.</div>
               </div>
             </div>
           </div>
         </div>
-        <div class="more-projects-btn">
-          <div class="styleguide-button-wrap">
-            <a href="projects.html" class="button cta w-inline-block w-clearfix">
-              <div class="explore">Discover More</div><img src="images/button-purple-arrow.svg" alt="" class="button-arrow-sleek"></a>
-          </div>
+      </div>
+      <div class="more-projects-btn">
+        <div class="styleguide-button-wrap">
+          <a href="projects.html" class="button cta w-inline-block w-clearfix">
+            <div class="explore">Discover More</div>
+            <img
+              src="images/button-purple-arrow.svg"
+              alt=""
+              class="button-arrow-sleek"
+          /></a>
         </div>
       </div>
     </div>
   </div>
-  <div class="section">
-    <div data-poster-url="https://uploads-ssl.webflow.com/5e209ae7ed25e4622d96f504/5e306b9603c1a36c2dd06a76_CDA Website Narrow Video 01-poster-00001.jpg" data-video-urls="https://uploads-ssl.webflow.com/5e209ae7ed25e4622d96f504/5e306b9603c1a36c2dd06a76_CDA Website Narrow Video 01-transcode.mp4,https://uploads-ssl.webflow.com/5e209ae7ed25e4622d96f504/5e306b9603c1a36c2dd06a76_CDA Website Narrow Video 01-transcode.webm" data-autoplay="true" data-loop="true" data-wf-ignore="true" class="background-video-2 w-background-video w-background-video-atom"><video autoplay="" loop="" style="background-image:url(&quot;https://uploads-ssl.webflow.com/5e209ae7ed25e4622d96f504/5e306b9603c1a36c2dd06a76_CDA Website Narrow Video 01-poster-00001.jpg&quot;)" muted="" playsinline="" data-wf-ignore="true" data-object-fit="cover"><source src="https://uploads-ssl.webflow.com/5e209ae7ed25e4622d96f504/5e306b9603c1a36c2dd06a76_CDA Website Narrow Video 01-transcode.mp4" data-wf-ignore="true"><source src="https://uploads-ssl.webflow.com/5e209ae7ed25e4622d96f504/5e306b9603c1a36c2dd06a76_CDA Website Narrow Video 01-transcode.webm" data-wf-ignore="true"></video>
-      <div class="container-1200">
-        <div class="sign-up-action">
-          <div data-w-id="93e6c0a7-e77a-8b34-7d22-e0a775a5ce58" class="heading-3 white-text">Stay informed by signing up for updates</div>
-          <div class="form-block-2 w-form">
-            <form id="email-form-2" name="email-form-2" data-name="Email Form 2"><label for="name-2" data-w-id="93e6c0a7-e77a-8b34-7d22-e0a775a5ce5c" class="footer-field-label">name</label><input type="text" class="input-field w-input" maxlength="256" name="name-2" data-name="Name 2" data-w-id="93e6c0a7-e77a-8b34-7d22-e0a775a5ce5e" id="name-2" required=""><label for="email-3" data-w-id="93e6c0a7-e77a-8b34-7d22-e0a775a5ce5f" class="field-label-2">Email Address</label><input type="email" class="input-field w-input" maxlength="256" name="email-2" data-name="Email 2" data-w-id="93e6c0a7-e77a-8b34-7d22-e0a775a5ce61" id="email-2" required="">
-              <div class="div-block-92">
-                <div href="#" data-w-id="93e6c0a7-e77a-8b34-7d22-e0a775a5ce62" class="button-copy white-copy w-clearfix"><input type="submit" value="Submit" data-wait="Please wait..." class="submit-button-2 w-button">
-                  <div class="explore invert">Submit</div><img src="images/button-transparent-arrow_1.svg" alt="" class="button-arrow-sleek"></div>
-              </div>
-            </form>
-            <div class="w-form-done">
-              <div>Thank you! Your submission has been received!</div>
-            </div>
-            <div class="w-form-fail">
-              <div>Oops! Something went wrong while submitting the form.</div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+</div>
+<div class="section">
+  <div
+    data-poster-url="https://uploads-ssl.webflow.com/5e209ae7ed25e4622d96f504/5e306b9603c1a36c2dd06a76_CDA Website Narrow Video 01-poster-00001.jpg"
+    data-video-urls="https://uploads-ssl.webflow.com/5e209ae7ed25e4622d96f504/5e306b9603c1a36c2dd06a76_CDA Website Narrow Video 01-transcode.mp4,https://uploads-ssl.webflow.com/5e209ae7ed25e4622d96f504/5e306b9603c1a36c2dd06a76_CDA Website Narrow Video 01-transcode.webm"
+    data-autoplay="true"
+    data-loop="true"
+    data-wf-ignore="true"
+    class="background-video-2 w-background-video w-background-video-atom"
+  >
+    <video
+      autoplay=""
+      loop=""
+      style='background-image:url("https://uploads-ssl.webflow.com/5e209ae7ed25e4622d96f504/5e306b9603c1a36c2dd06a76_CDA Website Narrow Video 01-poster-00001.jpg")'
+      muted=""
+      playsinline=""
+      data-wf-ignore="true"
+      data-object-fit="cover"
+    >
+      <source
+        src="https://uploads-ssl.webflow.com/5e209ae7ed25e4622d96f504/5e306b9603c1a36c2dd06a76_CDA Website Narrow Video 01-transcode.mp4"
+        data-wf-ignore="true"
+      />
+      <source
+        src="https://uploads-ssl.webflow.com/5e209ae7ed25e4622d96f504/5e306b9603c1a36c2dd06a76_CDA Website Narrow Video 01-transcode.webm"
+        data-wf-ignore="true"
+      />
+    </video>
     <div class="container-1200">
-      <div class="div-block-40">
-        <div data-w-id="93e6c0a7-e77a-8b34-7d22-e0a775a5ce70" class="heading-3">Need a quick rundown?<br>Download our <strong>Student Information Pack</strong></div>
-        <div class="div-block-91">
-          <a href="documents/Student-info-pack-2020_FINAL.pdf" data-w-id="93e6c0a7-e77a-8b34-7d22-e0a775a5ce76" target="_blank" class="button cta w-inline-block w-clearfix">
-            <div class="explore">Download</div><img src="images/button-purple-arrow.svg" alt="" class="button-arrow-sleek"></a>
+      <div class="sign-up-action">
+        <div
+          data-w-id="93e6c0a7-e77a-8b34-7d22-e0a775a5ce58"
+          class="heading-3 white-text"
+        >
+          Stay informed by signing up for updates
         </div>
-      </div>
-    </div>
-    <div class="section footer">
-      <div class="container-1440 container-100h footer">
-        <div class="div-block-41">
-          <div data-w-id="93e6c0a7-e77a-8b34-7d22-e0a775a5ce7e" class="footer-block">
-            <div class="heading-2 white-text center">Dance <br>with us</div>
-            <a href="learning.html" class="button white w-inline-block w-clearfix">
-              <div class="explore invert">Dance</div><img src="images/button-transparent-arrow_1.svg" alt="" class="button-arrow-sleek"></a>
+        <div class="form-block-2 w-form">
+          <form id="email-form-2" name="email-form-2" data-name="Email Form 2">
+            <label
+              for="name-2"
+              data-w-id="93e6c0a7-e77a-8b34-7d22-e0a775a5ce5c"
+              class="footer-field-label"
+              >name</label
+            ><input
+              type="text"
+              class="input-field w-input"
+              maxlength="256"
+              name="name-2"
+              data-name="Name 2"
+              data-w-id="93e6c0a7-e77a-8b34-7d22-e0a775a5ce5e"
+              id="name-2"
+              required=""
+            /><label
+              for="email-3"
+              data-w-id="93e6c0a7-e77a-8b34-7d22-e0a775a5ce5f"
+              class="field-label-2"
+              >Email Address</label
+            ><input
+              type="email"
+              class="input-field w-input"
+              maxlength="256"
+              name="email-2"
+              data-name="Email 2"
+              data-w-id="93e6c0a7-e77a-8b34-7d22-e0a775a5ce61"
+              id="email-2"
+              required=""
+            />
+            <div class="div-block-92">
+              <div
+                href="#"
+                data-w-id="93e6c0a7-e77a-8b34-7d22-e0a775a5ce62"
+                class="button-copy white-copy w-clearfix"
+              >
+                <input
+                  type="submit"
+                  value="Submit"
+                  data-wait="Please wait..."
+                  class="submit-button-2 w-button"
+                />
+                <div class="explore invert">Submit</div>
+                <img
+                  src="images/button-transparent-arrow_1.svg"
+                  alt=""
+                  class="button-arrow-sleek"
+                />
+              </div>
+            </div>
+          </form>
+          <div class="w-form-done">
+            <div>Thank you! Your submission has been received!</div>
           </div>
-          <div data-w-id="93e6c0a7-e77a-8b34-7d22-e0a775a5ce88" class="footer-block">
-            <div class="heading-2 white-text center">Perform <br>with us</div>
-            <a href="performance.html" class="button white w-inline-block w-clearfix">
-              <div class="explore invert">Perform</div><img src="images/button-transparent-arrow_1.svg" alt="" class="button-arrow-sleek"></a>
-          </div>
-          <div data-w-id="93e6c0a7-e77a-8b34-7d22-e0a775a5ce92" class="footer-block">
-            <div class="heading-2 white-text center">Contact<br>us</div>
-            <a href="contact.html" class="button white w-inline-block w-clearfix">
-              <div class="explore invert">Contact</div><img src="images/button-transparent-arrow_1.svg" alt="" class="button-arrow-sleek"></a>
-          </div>
-        </div>
-        <div class="div-block-42">
-          <div class="div-block-90">
-            <div class="paragraph white footer-fineprint">Site by: NineAxis Studio</div>
-            <div class="paragraph white footer-fineprint">© CHITRALEKA DANCE COMPANY </div>
-          </div>
-          <div class="social-buttons">
-            <a href="#" class="button white social w-inline-block w-clearfix">
-              <div class="explore invert social">Instagram</div>
-              <div class="arrow invert social"></div>
-            </a>
-            <a href="#" class="button white social w-inline-block w-clearfix">
-              <div class="explore invert social">Facebook</div>
-              <div class="arrow invert social"></div>
-            </a>
-            <a href="#" class="button white social w-inline-block w-clearfix">
-              <div class="explore invert social">Twitter</div>
-              <div class="arrow invert social"></div>
-            </a>
+          <div class="w-form-fail">
+            <div>Oops! Something went wrong while submitting the form.</div>
           </div>
         </div>
       </div>
     </div>
   </div>
-  <div class="w-embed">
-    <style>
-	html { font-size: 16px; }
-@media screen and (max-width: 991px){
-  html{
+  <div class="container-1200">
+    <div class="div-block-40">
+      <div data-w-id="93e6c0a7-e77a-8b34-7d22-e0a775a5ce70" class="heading-3">
+        Need a quick rundown?<br />Download our
+        <strong>Student Information Pack</strong>
+      </div>
+      <div class="div-block-91">
+        <a
+          href="documents/Student-info-pack-2020_FINAL.pdf"
+          data-w-id="93e6c0a7-e77a-8b34-7d22-e0a775a5ce76"
+          target="_blank"
+          class="button cta w-inline-block w-clearfix"
+        >
+          <div class="explore">Download</div>
+          <img
+            src="images/button-purple-arrow.svg"
+            alt=""
+            class="button-arrow-sleek"
+        /></a>
+      </div>
+    </div>
+  </div>
+  <div class="section footer">
+    <div class="container-1440 container-100h footer">
+      <div class="div-block-41">
+        <div
+          data-w-id="93e6c0a7-e77a-8b34-7d22-e0a775a5ce7e"
+          class="footer-block"
+        >
+          <div class="heading-2 white-text center">Dance <br />with us</div>
+          <a
+            href="learning.html"
+            class="button white w-inline-block w-clearfix"
+          >
+            <div class="explore invert">Dance</div>
+            <img
+              src="images/button-transparent-arrow_1.svg"
+              alt=""
+              class="button-arrow-sleek"
+          /></a>
+        </div>
+        <div
+          data-w-id="93e6c0a7-e77a-8b34-7d22-e0a775a5ce88"
+          class="footer-block"
+        >
+          <div class="heading-2 white-text center">Perform <br />with us</div>
+          <a
+            href="performance.html"
+            class="button white w-inline-block w-clearfix"
+          >
+            <div class="explore invert">Perform</div>
+            <img
+              src="images/button-transparent-arrow_1.svg"
+              alt=""
+              class="button-arrow-sleek"
+          /></a>
+        </div>
+        <div
+          data-w-id="93e6c0a7-e77a-8b34-7d22-e0a775a5ce92"
+          class="footer-block"
+        >
+          <div class="heading-2 white-text center">Contact<br />us</div>
+          <a href="contact.html" class="button white w-inline-block w-clearfix">
+            <div class="explore invert">Contact</div>
+            <img
+              src="images/button-transparent-arrow_1.svg"
+              alt=""
+              class="button-arrow-sleek"
+          /></a>
+        </div>
+      </div>
+      <div class="div-block-42">
+        <div class="div-block-90">
+          <div class="paragraph white footer-fineprint">
+            Site by: NineAxis Design
+          </div>
+          <div class="paragraph white footer-fineprint">
+            © CHITRALEKA DANCE COMPANY
+          </div>
+        </div>
+        <div class="social-buttons">
+          <a href="#" class="button white social w-inline-block w-clearfix">
+            <div class="explore invert social">Instagram</div>
+            <div class="arrow invert social"></div>
+          </a>
+          <a href="#" class="button white social w-inline-block w-clearfix">
+            <div class="explore invert social">Facebook</div>
+            <div class="arrow invert social"></div>
+          </a>
+          <a href="#" class="button white social w-inline-block w-clearfix">
+            <div class="explore invert social">Twitter</div>
+            <div class="arrow invert social"></div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<script
+  src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.4.1.min.220afd743d.js"
+  type="text/javascript"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"
+></script>
+<script src="js/webflow.js" type="text/javascript"></script>
+<!-- [if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->
+<script>
+  function delay(URL) {
+    setTimeout(function() {
+      window.location = URL;
+    }, 600);
   }
-}
-</style>
-  </div>
-  <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.4.1.min.220afd743d.js" type="text/javascript" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-  <script src="js/webflow.js" type="text/javascript"></script>
-  <!-- [if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->
-  <script>
-function delay (URL) {
-setTimeout( function() { window.location = URL }, 600 );
-}
 </script>
-</body>
-</html>
