@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="19px" height="60px" viewBox="0 0 19 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>Group 3</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home-Desktop-HD" transform="translate(-711.000000, -807.000000)">
+            <g id="Group-3" transform="translate(711.000000, 807.000000)">
+                <line x1="9.5" y1="0.5" x2="9.5" y2="57.6771771" id="Path-2" stroke="#FFFFFF" stroke-width="3"></line>
+                <polygon id="Triangle" fill="#FFFFFF" transform="translate(9.500000, 55.000000) scale(1, -1) translate(-9.500000, -55.000000) " points="9.5 50 19 60 0 60"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>
